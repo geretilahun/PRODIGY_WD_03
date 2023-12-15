@@ -1,0 +1,79 @@
+*{
+    color: white;
+    font-family: sans-serif;
+    transition: 0.2s ease-in-out;
+    user-select: none;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body{
+    background-color: #0e0e0d;
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tic h3{
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+   
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 290px;
+    width: 290px;
+    margin: 30px auto;
+    border: 2px solid #000;
+    background: linear-gradient(-45deg, rgb(0, 255, 8),  rgb(200, 133, 9),  yellow, #e73c7e, #2ceb0e, #c4e202);
+    animation: gradient 7s ease infinite;
+    margin-top: 40px;
+    
+    
+}
+
+.box{
+    cursor: pointer;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border: 2px solid #060505;
+    
+}
+
+.box:hover{
+    background-color: #1a03ed;
+}
+
+#play-again{
+    background-color: #033bf1;
+    padding: 10px 25px;
+    border: none;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    border-radius: 20px;
+}
+
+#play-again:hover{
+    padding: 10px 40px;
+    background-color: #08D9D6;
+    color: #000;
+}
+.results{
+    font-size: 20px;
+    font-weight: bold;
+}
